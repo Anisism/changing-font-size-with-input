@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>enter px of bottom text:</h3>
+    <input type="number" name="" id="px">
+    <button type="button" onclick="fun()">change>></button>
+    <p id="res">Resize me if you can</p>
+
+
+    <script>
+        function fun() {
+            var x = document.getElementById("px").value ;
+            document.getElementById("res").style.fontSize = x + "px";
+        }
+    </script>
+</body>
+</html>
